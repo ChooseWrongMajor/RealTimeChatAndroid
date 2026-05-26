@@ -90,6 +90,40 @@
         </FrameLayout>
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:text="Or sign in with"
+            android:textColor="#575757"
+            android:textSize="@dimen/_11ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSignInWithGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="Continue with Google"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF"
+            app:cornerRadius="@dimen/_8sdp"
+            app:strokeColor="#DDDDDD"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSignInWithFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Continue with Facebook"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:backgroundTint="#1877F2"
+            app:cornerRadius="@dimen/_8sdp" />
+
+        <TextView
             android:id="@+id/textCreateNewAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

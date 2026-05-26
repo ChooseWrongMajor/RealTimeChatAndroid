@@ -11,4 +11,8 @@
     <string name="select_user">Select User</string>
     <string name="type_a_message">Type a message</string>
     <string name="online">Online</string>
+    <string name="default_web_client_id">499762964084-ko14eghp0ge1k0e2dbv1qmk9u7a7ugql.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1341516321205427</string>
+    <string name="fb_login_protocol_scheme">fb1341516321205427</string>
+    <string name="facebook_client_token">e866514a8dbc0e2f85ae20fea3f0d737</string>
 </resources>

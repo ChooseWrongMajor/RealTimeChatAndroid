@@ -55,6 +55,8 @@ public class UsersActivity extends BaseActivity implements UserListener {
                             user.image = queryDocumentSnapshot.getString(Constants.KEY_IMAGE);
                             user.token = queryDocumentSnapshot.getString(Constants.KEY_FCM_TOKEN);
                             user.id = queryDocumentSnapshot.getId();
+                            Boolean isAI = queryDocumentSnapshot.getBoolean(Constants.KEY_IS_AI);
+                            user.isAI = isAI != null && isAI;
                             users.add(user);
                         }
                         if (users.size() > 0) {
